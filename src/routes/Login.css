@@ -1,0 +1,17 @@
+#sign_up_form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+#sign_up_form input {
+  margin: 5px 0;
+}
+
+#sign_up_form button {
+  background-color: aqua;
+}
+
+#sign_up_form button:hover {
+  background-color: white;
+}
