@@ -16,3 +16,22 @@
 #sign_up_form button:hover {
   background-color: white;
 }
+
+#login_form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+#login_form input {
+  margin: 5px 0;
+  font-size: 25px;
+}
+
+#login_form button {
+  background-color: aqua;
+}
+
+#login_form button:hover {
+  background-color: white;
+}
