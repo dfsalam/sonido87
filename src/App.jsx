@@ -15,8 +15,8 @@ const App = () => (
       <Route path="about" element={<About />} />      
       <Route path="profile" element={<Profile />} />
       <Route path="*" element={<NotMatch />} />
-    </Route>
-    <Route path="login" element={<Login />} />
+      <Route path="login" element={<Login />} />
+    </Route>    
     <Route path="signup" element={<Signup />} />
   </Routes>
 );
