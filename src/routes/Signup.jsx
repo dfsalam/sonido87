@@ -2,13 +2,39 @@ import React from 'react'
 
 const Signup = () => {
   return (
-    <form id="sign_up_form">
-      <h3>Sign up</h3>
-      <input type="text" id="sign_up_email" placeholder="Email" />
-      <input type="password" id="sign_up_password" placeholder="Password" />
-      <input type="password" id="sign_up_password_confirm" placeholder="Confirm password" />
-      <button type="submit" id="sign_up_button">Submit</button>
-    </form>
+    <section id='login'>
+    <div className="login--container">
+      <main>
+      <form id="sign_up_form">
+        <header>
+          <h2 className="text-center fs-2 text-secondary">Sign up</h2>
+        </header>
+        <div className='mb-3'>
+          <label htmlFor="name">
+            <input type="text" id="sign_up_email" placeholder="Email" className='form-control' />
+          </label>
+        </div>
+        <div className='mb-3'>
+          <label htmlFor="name">
+        <input type="password" id="sign_up_password" placeholder="Password" className='form-control' />
+        </label>
+        </div>
+        <div className='mb-3'>
+          <label htmlFor="name">
+        <input type="password" id="sign_up_password_confirm" placeholder="Confirm password" className='form-control' />
+        </label>
+        </div>
+        <div className="d-grid mt-5">
+              <input
+                type="submit"
+                value="Submit"
+                className="btn btn-success btn-radius"
+              />
+            </div>
+      </form>
+      </main>
+    </div>
+    </section>
   )
 }
 

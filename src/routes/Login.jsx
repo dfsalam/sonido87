@@ -25,7 +25,7 @@ const LogIn = () => {
     <section id="login">
       <div className="login--container">
         <header>
-          <h1 className="text-center fs-2 text-secondary">Login</h1>
+          <h2 className="text-center fs-2 text-secondary">Login</h2>
         </header>
         <main>
           <form onSubmit={handleSubmit}>
