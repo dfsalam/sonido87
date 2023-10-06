@@ -68,12 +68,7 @@ const LogIn = () => {
               <Link to="/signup" className="text-muted">
                 Signup
               </Link>
-            </div>
-            <div>
-              <Link to="/" className="text-muted">
-                Back
-              </Link>
-            </div>
+            </div>           
           </div>
         </main>
       </div>
