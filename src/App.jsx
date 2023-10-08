@@ -6,18 +6,18 @@ import Login from './routes/Login';
 import Profile from './routes/Profile';
 import NotMatch from './routes/NotMatch';
 import Layout from './components/Layout';
-import Signup from './routes/Signup'
+import Signup from './routes/Signup';
 
 const App = () => (
   <Routes>
     <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
-      <Route path="about" element={<About />} />      
+      <Route path="about" element={<About />} />
       <Route path="profile" element={<Profile />} />
       <Route path="*" element={<NotMatch />} />
       <Route path="login" element={<Login />} />
       <Route path="signup" element={<Signup />} />
-    </Route>    
+    </Route>
   </Routes>
 );
 export default App;

@@ -6,7 +6,7 @@ import './Login.scss';
 
 const LogIn = () => {
   const [userName, setUserName] = useState('');
-  const passWord = ''
+  const passWord = '';
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -68,7 +68,7 @@ const LogIn = () => {
               <Link to="/signup" className="text-muted">
                 Signup
               </Link>
-            </div>           
+            </div>
           </div>
         </main>
       </div>
