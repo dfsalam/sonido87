@@ -1,6 +1,19 @@
 import React from 'react';
 
-const Signup = () => (
+const Signup = () => {
+  
+  // I started the signup logic here
+  // I need to review the video from to 6.39 to 13.30
+  // I need to translate the Vanilla code to React
+  const API_URL = "http://localhost:3000/users/tokens";
+  let access_token;
+  let refresh_token = localStorage.getItem("refresh_token");
+  let resource_owner;
+
+  
+  
+  
+  return(
   <section id="login">
     <div className="login--container">
       <main>
@@ -34,6 +47,6 @@ const Signup = () => (
       </main>
     </div>
   </section>
-);
+)};
 
 export default Signup;
