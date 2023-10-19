@@ -1,6 +1,6 @@
 1. **Project Setup:**
-   - Set up the development environment with the required tools and libraries.
-   - Create a new Rails application.
+   - Set up the development environment with the required tools and libraries. (Done)
+   - Create a new Rails application. (Done)
    - Initialize a new React application within the Rails project.
 
 2. **Database Configuration:**
@@ -9,7 +9,7 @@
 
 3. **Backend Development:**
    - Implement RESTful APIs in Ruby on Rails to handle CRUD operations for products, users, orders, etc.
-   - Implement user authentication and authorization (e.g., using Devise or JWT) to secure the application.
+   - Implement user authentication and authorization (e.g., using Devise or JWT) to secure the application. (Done with devise_api)
    - Implement shopping cart functionalities, including adding/removing items and updating quantities.
 
 4. **Frontend Development:**

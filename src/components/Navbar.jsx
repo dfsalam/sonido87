@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import './Navbar.css';
 
 const links = [
   { path: '/', text: 'Home' },
@@ -16,6 +17,7 @@ const Navbar = () => (
         </li>
       ))}
     </ul>
+    <button type="button" id="logout_button">Logout</button>
   </nav>
 );
 export default Navbar;
